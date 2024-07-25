@@ -1,7 +1,7 @@
 import React from 'react';
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
-//(103.48.197.172/32
-//103.48.197.135/32
+
+
 //import {image1} from "./dfvg/castle.jpg"
 import {
   GiBarn,
