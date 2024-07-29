@@ -1,6 +1,5 @@
 import React from 'react';
-
-import image from '../dfvg/eight.jpg'
+import image from './eight.jpg';
 import {IconButton} from '@mui/material';
 import {Search,Menu,Person} from "@mui/icons-material";
 import variables from "../styles/variables.scss"
@@ -33,9 +32,9 @@ const Navbar = () => {
   <a href="/login">Login</a>
 )}
 <button className="navbar_right_account"onClick={()=>setDropdownMenu(!dropdownMenu)}>
-<Menu sx={{color:variables.darkrey}}/>
+<Menu sx={{color:variables.darkgrey}}/>
 {!user ?(
-<Person sx={{color:variables.darkrey}}/>
+<Person sx={{color:variables.darkgrey}}/>
 )
 :
 (

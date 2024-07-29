@@ -21,3 +21,14 @@ mongoose.connect(process.env.MONGO_URL,{
    app.listen(PORT,() =>console.log(`Server Port :${PORT}`))
 })
 .catch((err) => console.log(`${err} did not match`));
+
+const imageroutes = require('./routes/imageroutes');
+
+
+
+
+
+app.use('/api', imageroutes); // Mount image routes under '/api/images'
+
+
+

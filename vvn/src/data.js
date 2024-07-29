@@ -55,13 +55,13 @@ export const categories = [
     icon: <BiWorld />,
   },
   {
-    //img:{image1},
+    img:"dfvg/desert.jpg",
     label: "Beachfront",
     icon: <TbBeach />,
     description: "This property is close to the beach!",
   },
   {
-    imgsrc: "/C:/Users/dell/Desktop/rental_project/vvn/src/dfvg/castle.jpg",
+    img: "assets/windmill.jpg",
     label: "Windmills",
     icon: <GiWindmill />,
     description: "This property is has windmills!",
@@ -115,7 +115,7 @@ export const categories = [
     description: "This property is in a spooky cave!",
   },
   {
-    img: "dfvg/caamping.jpg",
+    img: "dfvg/lake.jpg",
     label: "Camping",
     icon: <GiForestCamp />,
     description: "This property offers camping activities!",

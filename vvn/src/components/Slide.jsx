@@ -6,6 +6,10 @@ const Slide = () => {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
      <h1>Welcome  Home ! Stay in your momnent maintain your movement <br>
      </br>make your memories </h1>
     </div>
